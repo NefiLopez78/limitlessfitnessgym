@@ -133,19 +133,14 @@
           
           <label for="pNum">Phone Number<span class="required">*</span></label>
           <input id="pNum" name="pNum" type="tel" placeholder="(123)456-7890" required autocomplete>
-          
-          <fieldset>
-          <legend>Perferred Contact Method<span>*</span></legend>
-            <input name="contact" type="radio" id="pContact" required checked>
-            <label for="contact" id="Contact">Phone</label>
-            <input name="contact" type="radio" id="eContact" required>
-            <label for="contact" id="Contact">Email</label>
-          </fieldset>
 
-          <select name="choice">
-            <option value="first" selected>First Value</option>
-            <option value="second">Second Value</option>
-            <option value="third">Third Value</option>
+          <label for="pet-select">Membership Type:</label>
+
+          <select name="pets" id="pet-select">
+            <option value="">--Select a Membership Option--</option>
+            <option value="dog">Monthly Membership</option>
+            <option value="cat">Annual Membership</option>
+            <option value="cat">Family & Group Plans</option>
           </select>
 
           <label for="message">Message<span class="required">*</span><label>
