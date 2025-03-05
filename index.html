@@ -124,6 +124,35 @@
         <h3>Join Limitless Fitness Today!</h3>
         <p>Fill out the form below to kickstart your fitness journey:</p>
 <!--add accessibility to the form-->
+        <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+          <label for="fullName">Full Name<span class="required">*</span></label>
+          <input name ="fullName" type="text" id="fullName" placeholder="First Name & Last Name" autocomplete required>
+          
+          <label for="email">Email Address<span class="required">*</span></label>
+          <input id="email" name="email" type="email" placeholder="Example@email.com" required autocomplete>
+          
+          <label for="pNum">Phone Number<span class="required">*</span></label>
+          <input id="pNum" name="pNum" type="tel" placeholder="(123)456-7890" required autocomplete>
+          
+          <fieldset>
+          <legend>Perferred Contact Method<span>*</span></legend>
+            <input name="contact" type="radio" id="pContact" required checked>
+            <label for="contact" id="Contact">Phone</label>
+            <input name="contact" type="radio" id="eContact" required>
+            <label for="contact" id="Contact">Email</label>
+          </fieldset>
+
+          <select name="choice">
+            <option value="first" selected>First Value</option>
+            <option value="second">Second Value</option>
+            <option value="third">Third Value</option>
+          </select>
+
+          <label for="message">Message<span class="required">*</span><label>
+          <textarea id="message" required placeholder="comment, questions, concern"></textarea>
+              
+          <input type="submit" id="submit">
+        </form>
         Full Name
         Email Address
         Phone Number
