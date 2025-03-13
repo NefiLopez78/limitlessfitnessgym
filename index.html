@@ -4,7 +4,7 @@
 <!-- add required and recommended <meta> tags -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta description="author" content="Limitless fitness">
+<meta name="author" content="Limitless fitness">
 <meta name="description" content="Limitless Fitness is not only a gym but a community that anyone from a beginner to a seasoned athlete can join. What we offer are personalized training to achieve your goals, top of the line equipments that will help you throughout your journy, dynamic classes from HIIT workout to yoga to strength training, and a supportive community to motivate, work out and chat with each other!">
 <meta name="keywords" content="Limitless Fitness, Gym, Community, workout, exersize, training">
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
@@ -133,13 +133,13 @@
 <!--add accessibility to the form-->
         <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
           <label for="fullName">Full Name<span class="required">*</span></label>
-          <input name ="fullName" type="text" id="fullName" placeholder="First Name & Last Name" autocomplete required><br>
+          <input name ="fullName" type="text" id="fullName" placeholder="First Name & Last Name" autocomplete="on" required><br>
           
           <label for="email">Email Address<span class="required">*</span></label>
-          <input id="email" name="email" type="email" placeholder="Example@email.com" required autocomplete><br>
+          <input id="email" name="email" type="email" placeholder="Example@email.com" autocomplete="on" required><br>
           
           <label for="pNum">Phone Number<span class="required">*</span></label>
-          <input id="pNum" name="pNum" type="tel" placeholder="(123)456-7890" required autocomplete><br>
+          <input id="pNum" name="pNum" type="tel" placeholder="(123)456-7890" autocomplete="on" required><br>
 
           <label for="membership-select">Membership Type:<span class="required">*</span></label>
 
@@ -150,7 +150,7 @@
             <option value="family">Family & Group Plans</option>
           </select><br>
 
-          <label for="message">Tell us about your fitness goals:<span class="required">*</span><label>
+          <label for="message">Tell us about your fitness goals:<span class="required">*</span></label>
           <textarea id="message" required></textarea><br>
               
           <input type="submit" id="submit">
